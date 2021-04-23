@@ -1,2 +1,13 @@
+# hEhE secret keys
 keys.json
+
+# Hecking node_modules
 node_modules/
+
+# Compiled typescript folder
+dist/
+
+# Bad metadata
+Icon
+.DS_Store
+package_lock.json
