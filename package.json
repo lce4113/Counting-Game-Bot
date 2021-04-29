@@ -1,6 +1,12 @@
 {
   "scripts": {
-    "test": "nodemon -e ts --exec \"ts-node src/index.ts\""
+    "test": "nodemon",
+    "start": "ts-node src/index.ts"
+  },
+  "nodemonConfig": {
+    "exec": "ts-node src/index.ts test",
+    "ext": "ts,json",
+    "delay": "2500"
   },
   "dependencies": {
     "@types/node": "^14.14.41",
